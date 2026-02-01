@@ -31,9 +31,9 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16 sm:h-20">
           <div className="flex-shrink-0">
             <img
-              src="/chatgpt_image_jan_6,_2026,_10_15_01_pm.png"
+              src="/image copy copy copy copy copy copy copy copy copy copy copy.png"
               alt="BinBuddy Logo"
-              className="h-24 sm:h-32 lg:h-40 w-auto"
+              className="h-12 sm:h-14 lg:h-16 w-auto"
             />
           </div>
 
