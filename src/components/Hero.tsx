@@ -82,12 +82,6 @@ export default function Hero() {
                 className="w-full h-auto object-cover"
               />
             </div>
-            <div className="hidden lg:flex absolute -bottom-4 -right-4 sm:-bottom-6 sm:-right-6 w-24 h-24 sm:w-32 sm:h-32 bg-gray-900 rounded-2xl shadow-xl items-center justify-center z-10">
-              <div className="text-white text-center">
-                <div className="text-2xl sm:text-3xl font-bold">Fast</div>
-                <div className="text-xs sm:text-sm">Pickup</div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
