@@ -18,7 +18,7 @@ export default function Footer() {
             <img
               src="/image copy copy copy copy copy copy copy copy copy copy copy.png"
               alt="BinBuddy Logo"
-              className="h-48 sm:h-64 lg:h-80 w-auto mb-3 sm:mb-4"
+              className="h-12 sm:h-16 lg:h-20 w-auto mb-3 sm:mb-4"
             />
             <p className="text-sm sm:text-base text-gray-400 leading-relaxed">
               Florida's premier tech-driven hauling and bin service. Fast, reliable, and professional.
