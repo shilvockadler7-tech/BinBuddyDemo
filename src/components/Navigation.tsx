@@ -63,12 +63,6 @@ export default function Navigation() {
               Service Areas
             </button>
             <button
-              onClick={() => scrollToSection('testimonials')}
-              className="text-gray-700 hover:text-[#1b78fc] transition-colors font-medium"
-            >
-              Testimonials
-            </button>
-            <button
               onClick={() => scrollToSection('app')}
               className="text-gray-700 hover:text-[#1b78fc] transition-colors font-medium"
             >
@@ -127,12 +121,6 @@ export default function Navigation() {
               className="block w-full text-left text-gray-700 hover:text-[#1b78fc] transition-colors font-medium py-2"
             >
               Service Areas
-            </button>
-            <button
-              onClick={() => scrollToSection('testimonials')}
-              className="block w-full text-left text-gray-700 hover:text-[#1b78fc] transition-colors font-medium py-2"
-            >
-              Testimonials
             </button>
             <button
               onClick={() => scrollToSection('app')}
