@@ -77,13 +77,7 @@ export default function MobileApp() {
           </div>
 
           <div className="relative mt-8 lg:mt-0 flex justify-center">
-            <img
-              src="/image.png"
-              alt="BinBuddy Mobile App"
-              className="w-64 sm:w-80 lg:w-96 h-auto object-contain"
-            />
-
-            <div className="hidden lg:block absolute top-1/2 -right-8 transform -translate-y-1/2">
+            <div className="hidden lg:block absolute top-8 -right-8 z-20">
               <div className="bg-[#3c53f4] rounded-2xl p-6 shadow-2xl max-w-xs border-2 border-gray-200">
                 <div className="flex items-center space-x-3 mb-2">
                   <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
@@ -94,6 +88,12 @@ export default function MobileApp() {
                 <p className="text-white text-sm">Get notified when we launch</p>
               </div>
             </div>
+
+            <img
+              src="/image.png"
+              alt="BinBuddy Mobile App"
+              className="w-64 sm:w-80 lg:w-96 h-auto object-contain"
+            />
           </div>
         </div>
       </div>
