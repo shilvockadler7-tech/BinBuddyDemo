@@ -76,18 +76,12 @@ export default function MobileApp() {
             </p>
           </div>
 
-          <div className="relative mt-8 lg:mt-0">
-            <div className="relative mx-auto w-48 h-[380px] sm:w-56 sm:h-[440px] lg:w-64 lg:h-[500px] bg-gray-900 rounded-[2.5rem] sm:rounded-[3rem] shadow-2xl border-4 sm:border-6 lg:border-8 border-gray-800 overflow-hidden">
-              <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-24 h-4 sm:w-28 sm:h-5 lg:w-32 lg:h-6 bg-gray-800 rounded-b-2xl"></div>
-
-              <div className="h-full bg-gradient-to-br from-[#3c53f4] to-[#2b42e3] flex items-center justify-center p-6 sm:p-8">
-                <div className="text-center text-white">
-                  <Smartphone className="w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20 mx-auto mb-4 sm:mb-6" />
-                  <div className="text-xl sm:text-2xl font-bold mb-2">BinBuddy</div>
-                  <div className="text-xs sm:text-sm opacity-90">Mobile App Preview</div>
-                </div>
-              </div>
-            </div>
+          <div className="relative mt-8 lg:mt-0 flex justify-center">
+            <img
+              src="/image.png"
+              alt="BinBuddy Mobile App"
+              className="w-64 sm:w-80 lg:w-96 h-auto object-contain"
+            />
 
             <div className="hidden lg:block absolute top-1/2 -right-8 transform -translate-y-1/2">
               <div className="bg-[#3c53f4] rounded-2xl p-6 shadow-2xl max-w-xs border-2 border-gray-200">
