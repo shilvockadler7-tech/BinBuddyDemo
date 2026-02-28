@@ -48,14 +48,14 @@ export default function HowItWorks() {
                 key={index}
                 className="relative group"
               >
-                <div className="bg-white rounded-2xl p-8 h-full transition-all duration-300 hover:shadow-xl border-2 border-transparent hover:border-[#3c53f4]">
-                  <div className="absolute -top-4 -right-4 w-12 h-12 bg-[#3c53f4] rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">
+                <div className="bg-white rounded-2xl p-8 h-full transition-all duration-300 hover:shadow-xl border-2 border-transparent hover:border-[#1b78fc]">
+                  <div className="absolute -top-4 -right-4 w-12 h-12 bg-[#1b78fc] rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg">
                     {step.step}
                   </div>
 
                   <div className="mb-6">
-                    <div className="w-16 h-16 bg-[#3c53f4]/10 rounded-xl flex items-center justify-center shadow-md group-hover:scale-110 transition-transform">
-                      <Icon className="w-8 h-8 text-[#3c53f4]" />
+                    <div className="w-16 h-16 bg-[#1b78fc]/10 rounded-xl flex items-center justify-center shadow-md group-hover:scale-110 transition-transform">
+                      <Icon className="w-8 h-8 text-[#1b78fc]" />
                     </div>
                   </div>
 
@@ -69,7 +69,7 @@ export default function HowItWorks() {
                 </div>
 
                 {index < steps.length - 1 && (
-                  <div className="hidden lg:block absolute top-1/2 -right-4 w-8 h-0.5 bg-[#3c53f4]/30 z-10"></div>
+                  <div className="hidden lg:block absolute top-1/2 -right-4 w-8 h-0.5 bg-[#1b78fc]/30 z-10"></div>
                 )}
               </div>
             );

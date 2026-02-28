@@ -22,15 +22,15 @@ export default function MobileApp() {
   return (
     <section id="app" className="py-16 sm:py-20 lg:py-32 bg-white relative overflow-hidden">
       <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-0 left-0 w-64 h-64 sm:w-96 sm:h-96 bg-[#3c53f4] rounded-full filter blur-3xl"></div>
-        <div className="absolute bottom-0 right-0 w-64 h-64 sm:w-96 sm:h-96 bg-[#3c53f4] rounded-full filter blur-3xl"></div>
+        <div className="absolute top-0 left-0 w-64 h-64 sm:w-96 sm:h-96 bg-[#1b78fc] rounded-full filter blur-3xl"></div>
+        <div className="absolute bottom-0 right-0 w-64 h-64 sm:w-96 sm:h-96 bg-[#1b78fc] rounded-full filter blur-3xl"></div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           <div className="space-y-6 sm:space-y-8">
             <div className="inline-block">
-              <span className="bg-[#3c53f4] text-white px-3 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs sm:text-sm font-bold shadow-lg">
+              <span className="bg-[#1b78fc] text-white px-3 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs sm:text-sm font-bold shadow-lg">
                 Coming Soon 2026
               </span>
             </div>
@@ -48,7 +48,7 @@ export default function MobileApp() {
                 const Icon = feature.icon;
                 return (
                   <div key={index} className="flex items-start space-x-3 sm:space-x-4 bg-gray-50 rounded-xl p-3 sm:p-4 border border-gray-200">
-                    <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-[#3c53f4] rounded-lg flex items-center justify-center">
+                    <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-[#1b78fc] rounded-lg flex items-center justify-center">
                       <Icon className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
                     </div>
                     <div>
@@ -78,10 +78,10 @@ export default function MobileApp() {
 
           <div className="relative mt-8 lg:mt-0 flex justify-center">
             <div className="hidden lg:block absolute top-8 -right-8 z-20">
-              <div className="bg-[#3c53f4] rounded-2xl p-6 shadow-2xl max-w-xs border-2 border-gray-200">
+              <div className="bg-[#1b78fc] rounded-2xl p-6 shadow-2xl max-w-xs border-2 border-gray-200">
                 <div className="flex items-center space-x-3 mb-2">
                   <div className="w-10 h-10 bg-white rounded-full flex items-center justify-center">
-                    <Bell className="w-5 h-5 text-[#3c53f4]" />
+                    <Bell className="w-5 h-5 text-[#1b78fc]" />
                   </div>
                   <div className="text-white font-bold">Coming 2026</div>
                 </div>

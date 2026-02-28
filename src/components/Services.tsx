@@ -40,10 +40,10 @@ export default function Services() {
             return (
               <div
                 key={index}
-                className="bg-gray-50 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 group border-2 border-transparent hover:border-[#3c53f4]"
+                className="bg-gray-50 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 group border-2 border-transparent hover:border-[#1b78fc]"
               >
                 <div className="mb-6">
-                  <div className="w-16 h-16 bg-gradient-to-br from-[#3c53f4] to-[#2b42e3] rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                  <div className="w-16 h-16 bg-gradient-to-br from-[#1b78fc] to-[#0d5fd9] rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
                     <Icon className="w-8 h-8 text-white" />
                   </div>
                 </div>
@@ -59,7 +59,7 @@ export default function Services() {
                 <div className="space-y-3">
                   {service.features.map((feature, idx) => (
                     <div key={idx} className="flex items-center space-x-2">
-                      <div className="w-1.5 h-1.5 bg-[#3c53f4] rounded-full"></div>
+                      <div className="w-1.5 h-1.5 bg-[#1b78fc] rounded-full"></div>
                       <span className="text-gray-700 text-sm">{feature}</span>
                     </div>
                   ))}
@@ -75,7 +75,7 @@ export default function Services() {
               const element = document.getElementById('contact');
               if (element) element.scrollIntoView({ behavior: 'smooth' });
             }}
-            className="bg-[#3c53f4] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#2b42e3] transition-colors shadow-lg hover:shadow-xl"
+            className="bg-[#1b78fc] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#0d5fd9] transition-colors shadow-lg hover:shadow-xl"
           >
             Get Started Today
           </button>

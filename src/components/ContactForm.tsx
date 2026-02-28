@@ -47,16 +47,16 @@ export default function ContactForm() {
 
         <div className="grid lg:grid-cols-2 gap-12">
           <div className="space-y-8">
-            <div className="bg-white rounded-2xl p-8 space-y-6 shadow-lg border-2 border-[#3c53f4]/10">
+            <div className="bg-white rounded-2xl p-8 space-y-6 shadow-lg border-2 border-[#1b78fc]/10">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Contact Information</h3>
 
               <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-[#3c53f4] rounded-lg flex items-center justify-center">
+                <div className="flex-shrink-0 w-12 h-12 bg-[#1b78fc] rounded-lg flex items-center justify-center">
                   <Phone className="w-6 h-6 text-white" />
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900 mb-1">Phone</div>
-                  <a href="tel:+1234567890" className="text-gray-600 hover:text-[#3c53f4] transition-colors">
+                  <a href="tel:+1234567890" className="text-gray-600 hover:text-[#1b78fc] transition-colors">
                     (123) 456-7890
                   </a>
                   <div className="text-sm text-gray-500 mt-1">Available 24/7</div>
@@ -64,12 +64,12 @@ export default function ContactForm() {
               </div>
 
               <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-[#3c53f4] rounded-lg flex items-center justify-center">
+                <div className="flex-shrink-0 w-12 h-12 bg-[#1b78fc] rounded-lg flex items-center justify-center">
                   <Mail className="w-6 h-6 text-white" />
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900 mb-1">Email</div>
-                  <a href="mailto:info@binbuddy.com" className="text-gray-600 hover:text-[#3c53f4] transition-colors">
+                  <a href="mailto:info@binbuddy.com" className="text-gray-600 hover:text-[#1b78fc] transition-colors">
                     info@binbuddy.com
                   </a>
                   <div className="text-sm text-gray-500 mt-1">Response within 24 hours</div>
@@ -77,7 +77,7 @@ export default function ContactForm() {
               </div>
 
               <div className="flex items-start space-x-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-[#3c53f4] rounded-lg flex items-center justify-center">
+                <div className="flex-shrink-0 w-12 h-12 bg-[#1b78fc] rounded-lg flex items-center justify-center">
                   <MapPin className="w-6 h-6 text-white" />
                 </div>
                 <div>
@@ -88,7 +88,7 @@ export default function ContactForm() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-[#3c53f4] to-[#2b42e3] rounded-2xl p-8 text-white shadow-lg">
+            <div className="bg-gradient-to-br from-[#1b78fc] to-[#0d5fd9] rounded-2xl p-8 text-white shadow-lg">
               <div className="flex items-center space-x-3 mb-4">
                 <CheckCircle className="w-8 h-8" />
                 <h4 className="text-xl font-bold">Why Choose Bin Buddy?</h4>
@@ -114,7 +114,7 @@ export default function ContactForm() {
             </div>
           </div>
 
-          <div className="bg-white rounded-2xl shadow-2xl p-8 lg:p-10 border-2 border-[#3c53f4]/10">
+          <div className="bg-white rounded-2xl shadow-2xl p-8 lg:p-10 border-2 border-[#1b78fc]/10">
             {isSubmitted ? (
               <div className="text-center py-12">
                 <div className="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
@@ -138,7 +138,7 @@ export default function ContactForm() {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#3c53f4] focus:border-transparent transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#1b78fc] focus:border-transparent transition-all"
                     placeholder="John Doe"
                   />
                 </div>
@@ -154,7 +154,7 @@ export default function ContactForm() {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#3c53f4] focus:border-transparent transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#1b78fc] focus:border-transparent transition-all"
                     placeholder="john@example.com"
                   />
                 </div>
@@ -170,7 +170,7 @@ export default function ContactForm() {
                     value={formData.phone}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#3c53f4] focus:border-transparent transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#1b78fc] focus:border-transparent transition-all"
                     placeholder="(123) 456-7890"
                   />
                 </div>
@@ -184,7 +184,7 @@ export default function ContactForm() {
                     name="service"
                     value={formData.service}
                     onChange={handleChange}
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#3c53f4] focus:border-transparent transition-all"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#1b78fc] focus:border-transparent transition-all"
                   >
                     <option value="order-bin">Order a Bin</option>
                     <option value="become-buddy">Become a Buddy</option>
@@ -205,14 +205,14 @@ export default function ContactForm() {
                     value={formData.message}
                     onChange={handleChange}
                     rows={4}
-                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#3c53f4] focus:border-transparent transition-all resize-none"
+                    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-[#1b78fc] focus:border-transparent transition-all resize-none"
                     placeholder="Tell us about your project..."
                   ></textarea>
                 </div>
 
                 <button
                   type="submit"
-                  className="w-full bg-[#3c53f4] text-white px-6 py-4 rounded-lg font-semibold text-lg hover:bg-[#2b42e3] transition-colors flex items-center justify-center space-x-2 shadow-lg hover:shadow-xl"
+                  className="w-full bg-[#1b78fc] text-white px-6 py-4 rounded-lg font-semibold text-lg hover:bg-[#0d5fd9] transition-colors flex items-center justify-center space-x-2 shadow-lg hover:shadow-xl"
                 >
                   <span>Send Message</span>
                   <Send className="w-5 h-5" />

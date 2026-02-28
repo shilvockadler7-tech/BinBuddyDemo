@@ -26,28 +26,28 @@ export default function Footer() {
             <div className="flex space-x-3 sm:space-x-4">
               <a
                 href="#"
-                className="w-9 h-9 sm:w-10 sm:h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-[#3c53f4] transition-colors"
+                className="w-9 h-9 sm:w-10 sm:h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-[#1b78fc] transition-colors"
                 aria-label="Facebook"
               >
                 <Facebook className="w-4 h-4 sm:w-5 sm:h-5" />
               </a>
               <a
                 href="#"
-                className="w-9 h-9 sm:w-10 sm:h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-[#3c53f4] transition-colors"
+                className="w-9 h-9 sm:w-10 sm:h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-[#1b78fc] transition-colors"
                 aria-label="Twitter"
               >
                 <Twitter className="w-4 h-4 sm:w-5 sm:h-5" />
               </a>
               <a
                 href="#"
-                className="w-9 h-9 sm:w-10 sm:h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-[#3c53f4] transition-colors"
+                className="w-9 h-9 sm:w-10 sm:h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-[#1b78fc] transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram className="w-4 h-4 sm:w-5 sm:h-5" />
               </a>
               <a
                 href="#"
-                className="w-9 h-9 sm:w-10 sm:h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-[#3c53f4] transition-colors"
+                className="w-9 h-9 sm:w-10 sm:h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-[#1b78fc] transition-colors"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-4 h-4 sm:w-5 sm:h-5" />
@@ -62,7 +62,7 @@ export default function Footer() {
                 <li>
                   <button
                     onClick={() => scrollToSection('home')}
-                    className="hover:text-[#3c53f4] transition-colors text-left"
+                    className="hover:text-[#1b78fc] transition-colors text-left"
                   >
                     Home
                   </button>
@@ -70,7 +70,7 @@ export default function Footer() {
                 <li>
                   <button
                     onClick={() => scrollToSection('how-it-works')}
-                    className="hover:text-[#3c53f4] transition-colors text-left"
+                    className="hover:text-[#1b78fc] transition-colors text-left"
                   >
                     How It Works
                   </button>
@@ -78,7 +78,7 @@ export default function Footer() {
                 <li>
                   <button
                     onClick={() => scrollToSection('services')}
-                    className="hover:text-[#3c53f4] transition-colors text-left"
+                    className="hover:text-[#1b78fc] transition-colors text-left"
                   >
                     Services
                   </button>
@@ -86,7 +86,7 @@ export default function Footer() {
                 <li>
                   <button
                     onClick={() => scrollToSection('service-areas')}
-                    className="hover:text-[#3c53f4] transition-colors text-left"
+                    className="hover:text-[#1b78fc] transition-colors text-left"
                   >
                     Service Areas
                   </button>
@@ -94,7 +94,7 @@ export default function Footer() {
                 <li>
                   <button
                     onClick={() => scrollToSection('testimonials')}
-                    className="hover:text-[#3c53f4] transition-colors text-left"
+                    className="hover:text-[#1b78fc] transition-colors text-left"
                   >
                     Testimonials
                   </button>
@@ -108,7 +108,7 @@ export default function Footer() {
                 <li>
                   <button
                     onClick={() => scrollToSection('services')}
-                    className="hover:text-[#3c53f4] transition-colors text-left"
+                    className="hover:text-[#1b78fc] transition-colors text-left"
                   >
                     Roofers
                   </button>
@@ -116,7 +116,7 @@ export default function Footer() {
                 <li>
                   <button
                     onClick={() => scrollToSection('services')}
-                    className="hover:text-[#3c53f4] transition-colors text-left"
+                    className="hover:text-[#1b78fc] transition-colors text-left"
                   >
                     Contractors
                   </button>
@@ -124,7 +124,7 @@ export default function Footer() {
                 <li>
                   <button
                     onClick={() => scrollToSection('services')}
-                    className="hover:text-[#3c53f4] transition-colors text-left"
+                    className="hover:text-[#1b78fc] transition-colors text-left"
                   >
                     Homeowners
                   </button>
@@ -132,7 +132,7 @@ export default function Footer() {
                 <li>
                   <button
                     onClick={() => scrollToSection('contact')}
-                    className="hover:text-[#3c53f4] transition-colors text-left"
+                    className="hover:text-[#1b78fc] transition-colors text-left"
                   >
                     Book Now
                   </button>
@@ -140,7 +140,7 @@ export default function Footer() {
                 <li>
                   <button
                     onClick={() => scrollToSection('contact')}
-                    className="hover:text-[#3c53f4] transition-colors text-left"
+                    className="hover:text-[#1b78fc] transition-colors text-left"
                   >
                     Become a Buddy
                   </button>
@@ -153,22 +153,22 @@ export default function Footer() {
             <h4 className="text-white font-semibold text-base sm:text-lg mb-3 sm:mb-4">Contact Us</h4>
             <ul className="space-y-3 sm:space-y-4 text-sm sm:text-base">
               <li className="flex items-start space-x-2 sm:space-x-3">
-                <Phone className="w-4 h-4 sm:w-5 sm:h-5 text-[#3c53f4] mt-0.5 flex-shrink-0" />
+                <Phone className="w-4 h-4 sm:w-5 sm:h-5 text-[#1b78fc] mt-0.5 flex-shrink-0" />
                 <div>
-                  <a href="tel:+1234567890" className="hover:text-[#3c53f4] transition-colors">
+                  <a href="tel:+1234567890" className="hover:text-[#1b78fc] transition-colors">
                     (123) 456-7890
                   </a>
                   <div className="text-xs sm:text-sm text-gray-500">24/7 Available</div>
                 </div>
               </li>
               <li className="flex items-start space-x-2 sm:space-x-3">
-                <Mail className="w-4 h-4 sm:w-5 sm:h-5 text-[#3c53f4] mt-0.5 flex-shrink-0" />
-                <a href="mailto:info@binbuddy.com" className="hover:text-[#3c53f4] transition-colors">
+                <Mail className="w-4 h-4 sm:w-5 sm:h-5 text-[#1b78fc] mt-0.5 flex-shrink-0" />
+                <a href="mailto:info@binbuddy.com" className="hover:text-[#1b78fc] transition-colors">
                   info@binbuddy.com
                 </a>
               </li>
               <li className="flex items-start space-x-2 sm:space-x-3">
-                <MapPin className="w-4 h-4 sm:w-5 sm:h-5 text-[#3c53f4] mt-0.5 flex-shrink-0" />
+                <MapPin className="w-4 h-4 sm:w-5 sm:h-5 text-[#1b78fc] mt-0.5 flex-shrink-0" />
                 <span>Serving All of Florida</span>
               </li>
             </ul>
@@ -181,13 +181,13 @@ export default function Footer() {
               {currentYear} BinBuddy. All rights reserved.
             </div>
             <div className="flex flex-wrap justify-center gap-4 sm:gap-6 text-xs sm:text-sm">
-              <a href="#" className="hover:text-[#3c53f4] transition-colors">
+              <a href="#" className="hover:text-[#1b78fc] transition-colors">
                 Privacy Policy
               </a>
-              <a href="#" className="hover:text-[#3c53f4] transition-colors">
+              <a href="#" className="hover:text-[#1b78fc] transition-colors">
                 Terms of Service
               </a>
-              <a href="#" className="hover:text-[#3c53f4] transition-colors">
+              <a href="#" className="hover:text-[#1b78fc] transition-colors">
                 Cookie Policy
               </a>
             </div>

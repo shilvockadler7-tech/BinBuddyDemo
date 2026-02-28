@@ -22,13 +22,13 @@ export default function ServiceAreas() {
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           <div className="space-y-6 sm:space-y-8">
             <div className="inline-block">
-              <span className="bg-[#3c53f4]/10 text-[#3c53f4] border border-[#3c53f4]/30 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs sm:text-sm font-semibold">
+              <span className="bg-[#1b78fc]/10 text-[#1b78fc] border border-[#1b78fc]/30 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full text-xs sm:text-sm font-semibold">
                 Statewide Coverage
               </span>
             </div>
 
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900">
-              We Cover <span className="text-[#3c53f4]">ALL of Florida</span>
+              We Cover <span className="text-[#1b78fc]">ALL of Florida</span>
             </h2>
 
             <p className="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed">
@@ -46,9 +46,9 @@ export default function ServiceAreas() {
               ))}
             </div>
 
-            <div className="bg-white rounded-2xl p-4 sm:p-6 border-2 border-[#3c53f4]/20 shadow-lg">
+            <div className="bg-white rounded-2xl p-4 sm:p-6 border-2 border-[#1b78fc]/20 shadow-lg">
               <p className="text-sm sm:text-base text-gray-700 font-medium">
-                <span className="text-[#3c53f4] font-bold">Don't see your city?</span> We serve communities throughout Florida. Contact us to confirm service availability in your area.
+                <span className="text-[#1b78fc] font-bold">Don't see your city?</span> We serve communities throughout Florida. Contact us to confirm service availability in your area.
               </p>
             </div>
           </div>

@@ -62,19 +62,19 @@ export default function Testimonials() {
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <div className="bg-gray-50 rounded-2xl sm:rounded-3xl shadow-2xl p-6 sm:p-8 lg:p-12 relative border-2 border-[#3c53f4]/10">
-            <Quote className="absolute top-4 left-4 sm:top-8 sm:left-8 w-8 h-8 sm:w-12 sm:h-12 text-[#3c53f4]/20" />
+          <div className="bg-gray-50 rounded-2xl sm:rounded-3xl shadow-2xl p-6 sm:p-8 lg:p-12 relative border-2 border-[#1b78fc]/10">
+            <Quote className="absolute top-4 left-4 sm:top-8 sm:left-8 w-8 h-8 sm:w-12 sm:h-12 text-[#1b78fc]/20" />
 
             <div className="relative z-10">
               <div className="flex items-center justify-center mb-6 sm:mb-8">
-                <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-[#3c53f4] to-[#2b42e3] rounded-full flex items-center justify-center text-white text-xl sm:text-2xl font-bold shadow-lg">
+                <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-[#1b78fc] to-[#0d5fd9] rounded-full flex items-center justify-center text-white text-xl sm:text-2xl font-bold shadow-lg">
                   {currentTestimonial.avatar}
                 </div>
               </div>
 
               <div className="flex justify-center mb-4 sm:mb-6">
                 {[...Array(currentTestimonial.rating)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 sm:w-6 sm:h-6 text-[#3c53f4] fill-[#3c53f4]" />
+                  <Star key={i} className="w-5 h-5 sm:w-6 sm:h-6 text-[#1b78fc] fill-[#1b78fc]" />
                 ))}
               </div>
 
@@ -95,7 +95,7 @@ export default function Testimonials() {
           <div className="flex items-center justify-center space-x-3 sm:space-x-4 mt-6 sm:mt-8">
             <button
               onClick={prevTestimonial}
-              className="w-10 h-10 sm:w-12 sm:h-12 bg-white rounded-full shadow-lg hover:shadow-xl transition-all flex items-center justify-center text-gray-700 hover:text-[#3c53f4] border-2 border-gray-200 hover:border-[#3c53f4]"
+              className="w-10 h-10 sm:w-12 sm:h-12 bg-white rounded-full shadow-lg hover:shadow-xl transition-all flex items-center justify-center text-gray-700 hover:text-[#1b78fc] border-2 border-gray-200 hover:border-[#1b78fc]"
               aria-label="Previous testimonial"
             >
               <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" />
@@ -107,7 +107,7 @@ export default function Testimonials() {
                   key={index}
                   onClick={() => setCurrentIndex(index)}
                   className={`w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full transition-all ${
-                    index === currentIndex ? 'bg-[#3c53f4] w-6 sm:w-8' : 'bg-gray-300'
+                    index === currentIndex ? 'bg-[#1b78fc] w-6 sm:w-8' : 'bg-gray-300'
                   }`}
                   aria-label={`Go to testimonial ${index + 1}`}
                 />
@@ -116,7 +116,7 @@ export default function Testimonials() {
 
             <button
               onClick={nextTestimonial}
-              className="w-10 h-10 sm:w-12 sm:h-12 bg-white rounded-full shadow-lg hover:shadow-xl transition-all flex items-center justify-center text-gray-700 hover:text-[#3c53f4] border-2 border-gray-200 hover:border-[#3c53f4]"
+              className="w-10 h-10 sm:w-12 sm:h-12 bg-white rounded-full shadow-lg hover:shadow-xl transition-all flex items-center justify-center text-gray-700 hover:text-[#1b78fc] border-2 border-gray-200 hover:border-[#1b78fc]"
               aria-label="Next testimonial"
             >
               <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" />
