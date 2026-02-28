@@ -2,9 +2,9 @@ import { Check } from 'lucide-react';
 
 export default function ServiceAreas() {
   const majorCities = [
+    'Tampa (Headquarters)',
     'Jacksonville',
     'Miami',
-    'Tampa',
     'Orlando',
     'St. Petersburg',
     'Hialeah',
