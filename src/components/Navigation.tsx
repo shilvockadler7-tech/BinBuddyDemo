@@ -72,11 +72,11 @@ export default function Navigation() {
 
           <div className="hidden md:flex items-center space-x-4">
             <a
-              href="tel:+1234567890"
+              href="tel:+18557077071"
               className="flex items-center space-x-2 text-gray-700 hover:text-[#1b78fc] transition-colors"
             >
               <Phone className="w-5 h-5" />
-              <span className="font-medium">(123) 456-7890</span>
+              <span className="font-medium">(855) 707-7071</span>
             </a>
             <button
               onClick={() => scrollToSection('contact')}

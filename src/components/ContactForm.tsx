@@ -56,8 +56,8 @@ export default function ContactForm() {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900 mb-1">Phone</div>
-                  <a href="tel:+1234567890" className="text-gray-600 hover:text-[#1b78fc] transition-colors">
-                    (123) 456-7890
+                  <a href="tel:+18557077071" className="text-gray-600 hover:text-[#1b78fc] transition-colors">
+                    (855) 707-7071
                   </a>
                   <div className="text-sm text-gray-500 mt-1">Available 24/7</div>
                 </div>
