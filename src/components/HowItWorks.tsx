@@ -10,7 +10,7 @@ export default function HowItWorks() {
     },
     {
       icon: Truck,
-      title: 'A Buddy Delivers a Bin',
+      title: 'Buddy Delivers a Bin',
       description: 'Our professional team delivers a clean bin directly to your location.',
       step: '02',
     },
@@ -22,7 +22,7 @@ export default function HowItWorks() {
     },
     {
       icon: CheckCircle,
-      title: 'We Haul It Away',
+      title: 'Buddy Hauls It Away',
       description: 'Once ready, we pick up and haul away your bin. Simple and stress-free.',
       step: '04',
     },
