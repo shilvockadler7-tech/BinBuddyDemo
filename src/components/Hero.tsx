@@ -77,7 +77,7 @@ export default function Hero() {
             </div>
             <div className="lg:hidden flex items-center justify-center bg-white px-4 sm:px-6 py-8">
               <img
-                src="/image.png"
+                src="/trailer.png"
                 alt="Professional Dump Trailer"
                 className="w-full max-w-lg h-auto object-contain"
               />
