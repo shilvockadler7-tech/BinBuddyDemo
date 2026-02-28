@@ -35,11 +35,11 @@ export default function Services() {
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
-          {services.map((service, index) => {
+          {services.map((service) => {
             const Icon = service.icon;
             return (
               <div
-                key={index}
+                key={service.title}
                 className="bg-gray-50 rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 group border-2 border-transparent hover:border-[#3c53f4]"
               >
                 <div className="mb-6">
@@ -57,8 +57,8 @@ export default function Services() {
                 </p>
 
                 <div className="space-y-3">
-                  {service.features.map((feature, idx) => (
-                    <div key={idx} className="flex items-center space-x-2">
+                  {service.features.map((feature) => (
+                    <div key={feature} className="flex items-center space-x-2">
                       <div className="w-1.5 h-1.5 bg-[#3c53f4] rounded-full"></div>
                       <span className="text-gray-700 text-sm">{feature}</span>
                     </div>

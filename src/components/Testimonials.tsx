@@ -74,7 +74,7 @@ export default function Testimonials() {
 
               <div className="flex justify-center mb-4 sm:mb-6">
                 {[...Array(currentTestimonial.rating)].map((_, i) => (
-                  <Star key={i} className="w-5 h-5 sm:w-6 sm:h-6 text-[#3c53f4] fill-[#3c53f4]" />
+                  <Star key={`star-${currentIndex}-${i}`} className="w-5 h-5 sm:w-6 sm:h-6 text-[#3c53f4] fill-[#3c53f4]" />
                 ))}
               </div>
 
@@ -102,9 +102,9 @@ export default function Testimonials() {
             </button>
 
             <div className="flex space-x-2">
-              {testimonials.map((_, index) => (
+              {testimonials.map((testimonial, index) => (
                 <button
-                  key={index}
+                  key={`dot-${testimonial.name}`}
                   onClick={() => setCurrentIndex(index)}
                   className={`w-2 h-2 sm:w-2.5 sm:h-2.5 rounded-full transition-all ${
                     index === currentIndex ? 'bg-[#3c53f4] w-6 sm:w-8' : 'bg-gray-300'

@@ -44,10 +44,10 @@ export default function MobileApp() {
             </p>
 
             <div className="space-y-3 sm:space-y-4">
-              {features.map((feature, index) => {
+              {features.map((feature) => {
                 const Icon = feature.icon;
                 return (
-                  <div key={index} className="flex items-start space-x-3 sm:space-x-4 bg-gray-50 rounded-xl p-3 sm:p-4 border border-gray-200">
+                  <div key={feature.title} className="flex items-start space-x-3 sm:space-x-4 bg-gray-50 rounded-xl p-3 sm:p-4 border border-gray-200">
                     <div className="flex-shrink-0 w-10 h-10 sm:w-12 sm:h-12 bg-[#3c53f4] rounded-lg flex items-center justify-center">
                       <Icon className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
                     </div>

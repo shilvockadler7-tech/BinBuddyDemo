@@ -41,11 +41,11 @@ export default function HowItWorks() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {steps.map((step, index) => {
+          {steps.map((step) => {
             const Icon = step.icon;
             return (
               <div
-                key={index}
+                key={step.step}
                 className="relative group"
               >
                 <div className="bg-white rounded-2xl p-8 h-full transition-all duration-300 hover:shadow-xl border-2 border-transparent hover:border-[#3c53f4]">
