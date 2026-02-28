@@ -163,8 +163,8 @@ export default function Footer() {
               </li>
               <li className="flex items-start space-x-2 sm:space-x-3">
                 <Mail className="w-4 h-4 sm:w-5 sm:h-5 text-[#1b78fc] mt-0.5 flex-shrink-0" />
-                <a href="mailto:info@binbuddy.com" className="hover:text-[#1b78fc] transition-colors">
-                  info@binbuddy.com
+                <a href="mailto:info@Binbuddy.io" className="hover:text-[#1b78fc] transition-colors">
+                  info@Binbuddy.io
                 </a>
               </li>
               <li className="flex items-start space-x-2 sm:space-x-3">
