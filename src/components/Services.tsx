@@ -6,7 +6,7 @@ export default function Services() {
       icon: Hammer,
       title: 'Roofers',
       description: 'Specialized bin services for roofing projects. Fast delivery and pickup to keep your job site clean and efficient.',
-      features: ['Quick turnaround', 'Multiple bin sizes', 'Flexible scheduling'],
+      features: ['Quick turnaround', 'Driveway safe', 'Flexible scheduling'],
     },
     {
       icon: Users,
