@@ -28,12 +28,13 @@ export default function Navigation() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16 sm:h-20">
+        <div className="flex justify-between items-center py-4">
           <div className="flex-shrink-0">
             <img
               src="/logo.png"
               alt="BinBuddy Logo"
-              className="h-10 sm:h-12 lg:h-16 w-auto"
+              className="h-32 sm:h-36 lg:h-40 w-auto"
+              style={{ height: '160px' }}
             />
           </div>
 
