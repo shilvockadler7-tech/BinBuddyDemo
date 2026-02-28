@@ -1,4 +1,4 @@
-import { Check } from 'lucide-react';
+import { MapPin, Check } from 'lucide-react';
 
 export default function ServiceAreas() {
   const majorCities = [
@@ -55,7 +55,7 @@ export default function ServiceAreas() {
 
           <div className="relative mt-8 lg:mt-0 overflow-hidden rounded-2xl">
             <img
-              src="/hero-image.png"
+              src="/image copy copy copy copy copy copy copy copy copy.png"
               alt="Florida Service Area Map"
               className="w-full h-auto object-contain scale-110"
             />
