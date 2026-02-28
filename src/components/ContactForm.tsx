@@ -69,8 +69,8 @@ export default function ContactForm() {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-900 mb-1">Email</div>
-                  <a href="mailto:info@binbuddy.com" className="text-gray-600 hover:text-[#1b78fc] transition-colors">
-                    info@binbuddy.com
+                  <a href="mailto:info@Binbuddy.io" className="text-gray-600 hover:text-[#1b78fc] transition-colors">
+                    info@Binbuddy.io
                   </a>
                   <div className="text-sm text-gray-500 mt-1">Response within 24 hours</div>
                 </div>
