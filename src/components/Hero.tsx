@@ -70,14 +70,14 @@ export default function Hero() {
           <div className="relative mt-4 lg:mt-0 lg:translate-x-0 xl:translate-x-8 2xl:translate-x-16">
             <div className="hidden lg:block relative flex items-center justify-center lg:justify-start scale-110 sm:scale-125 lg:scale-[1.5] xl:scale-[1.7]">
               <img
-                src="/image copy copy copy copy copy copy copy copy.png"
+                src="/trailer.png"
                 alt="Professional Dump Trailer"
                 className="w-full max-w-[600px] lg:w-[1000%] h-auto object-contain"
               />
             </div>
             <div className="lg:hidden -mx-4 sm:-mx-6">
               <img
-                src="/image copy copy copy copy copy copy copy copy copy copy.png"
+                src="/trailer-mobile.png"
                 alt="Professional Dump Trailer"
                 className="w-full h-auto object-cover"
               />

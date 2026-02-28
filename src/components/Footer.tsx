@@ -16,7 +16,7 @@ export default function Footer() {
         <div className="space-y-8 sm:space-y-10 lg:space-y-0 lg:grid lg:grid-cols-4 lg:gap-12 mb-8 sm:mb-12">
           <div className="space-y-3 sm:space-y-4">
             <img
-              src="/image copy copy copy copy copy copy copy copy copy copy copy.png"
+              src="/logo.png"
               alt="BinBuddy Logo"
               className="h-24 sm:h-32 lg:h-40 w-auto mb-3 sm:mb-4"
             />
