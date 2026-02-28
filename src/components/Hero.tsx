@@ -25,7 +25,7 @@ export default function Hero() {
             </div>
 
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-gray-900">
-              Reliable Tech-Driven{' '}
+              Reliable{' '}
               <span className="text-[#3c53f4]">Hauling & Bin Services</span> in Florida
             </h1>
 
