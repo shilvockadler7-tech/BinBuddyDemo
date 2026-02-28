@@ -4,7 +4,7 @@ export default function HowItWorks() {
   const steps = [
     {
       icon: Calendar,
-      title: 'Schedule a BinBuddy',
+      title: 'Schedule a Buddy',
       description: 'Book online or call us to schedule your bin delivery at your convenience.',
       step: '01',
     },
