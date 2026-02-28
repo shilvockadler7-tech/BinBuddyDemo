@@ -57,7 +57,7 @@ export default function Hero() {
                 <div className="text-xs sm:text-sm text-gray-600">Jobs Completed</div>
               </div>
               <div className="text-center border-x border-gray-300">
-                <div className="text-2xl sm:text-3xl font-bold text-gray-900">98%</div>
+                <div className="text-2xl sm:text-3xl font-bold text-gray-900">100%</div>
                 <div className="text-xs sm:text-sm text-gray-600">Customer Satisfaction</div>
               </div>
               <div className="text-center">
