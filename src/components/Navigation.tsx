@@ -33,7 +33,7 @@ export default function Navigation() {
             <img
               src="/logo.png"
               alt="BinBuddy Logo"
-              className="h-10 sm:h-12 lg:h-16 w-auto"
+              className="h-14 sm:h-16 lg:h-20 w-auto"
             />
           </div>
 
