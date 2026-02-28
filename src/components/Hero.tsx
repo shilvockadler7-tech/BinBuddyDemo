@@ -75,11 +75,11 @@ export default function Hero() {
                 className="w-full max-w-[600px] lg:w-[1000%] h-auto object-contain"
               />
             </div>
-            <div className="lg:hidden -mx-4 sm:-mx-6">
+            <div className="lg:hidden flex items-center justify-center bg-white px-4 sm:px-6 py-8">
               <img
-                src="/trailer-mobile.png"
+                src="/image.png"
                 alt="Professional Dump Trailer"
-                className="w-full h-auto object-cover"
+                className="w-full max-w-lg h-auto object-contain"
               />
             </div>
           </div>
