@@ -15,13 +15,11 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16">
         <div className="space-y-8 sm:space-y-10 lg:space-y-0 lg:grid lg:grid-cols-4 lg:gap-12 mb-8 sm:mb-12">
           <div className="space-y-3 sm:space-y-4">
-            <div className="bg-white rounded-xl p-3 sm:p-4 inline-block mb-3 sm:mb-4">
-              <img
-                src="/logo.png"
-                alt="BinBuddy Logo"
-                className="h-20 sm:h-24 lg:h-32 w-auto"
-              />
-            </div>
+            <img
+              src="/logo.png"
+              alt="BinBuddy Logo"
+              className="h-24 sm:h-32 lg:h-40 w-auto mb-3 sm:mb-4 brightness-0 invert"
+            />
             <p className="text-sm sm:text-base text-gray-400 leading-relaxed">
               Florida's premier tech-driven hauling and bin service. Fast, reliable, and professional.
             </p>
