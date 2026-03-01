@@ -92,12 +92,7 @@ export default function MobileApp() {
             <img
               src="/image.png"
               alt="BinBuddy Mobile App"
-              className="lg:hidden w-64 sm:w-80 h-auto object-contain"
-            />
-            <img
-              src="/ChatGPT_Image_Feb_28,_2026,_03_05_49_PM.png"
-              alt="BinBuddy Trailer"
-              className="hidden lg:block w-96 h-auto object-contain"
+              className="w-64 sm:w-80 lg:w-96 h-auto object-contain"
             />
           </div>
         </div>
